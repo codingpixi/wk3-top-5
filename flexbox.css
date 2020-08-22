@@ -1,0 +1,21 @@
+/* --------- FLEXBOX  ---------  */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    
+    justify-content: center;
+    align-items: center;
+    /* align-items only works on the container */
+    
+}
+
+.box {
+    /*  box-sizing: border-box; */
+      
+      /* flex is short for flex-basis, flex-grow, and flex-shrink 
+          flex-basis: 200px;  
+          flex-grow: 1;
+      
+      */ 
+  }
