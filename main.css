@@ -1,12 +1,41 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', 'Arial', sans-serif;
 }
 
 body {
-    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+
+/* --------- FLEXBOX  ---------  */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 500px;
+}
+
 
 h1 {
     background-color: pink;
 }
+
+.box {
+    box-sizing: border-box;
+}
+
+.box-1 {
+    background: #e51400; 
+    flex-grow: 2;    
+}
+.box-2 {background: #fa6800;}
+.box-3 {background: #f0a30a; }
+.box-4 {background: #e3c800; }
+.box-5 {background: #a4c400;}
+.box-6 {background: #60a917;}
+.box-7 {background: #00aba9;}
+.box-8 {background: #1ba1e2;} 
+.box-9 {background: #aa00ff;}
