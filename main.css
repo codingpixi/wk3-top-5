@@ -9,13 +9,24 @@ body {
     padding-right: 5%;
 }
 
-h1 {
-    background-color: pink;
+/* ---------- MAIN NAVIGATION ---------- */
+.main-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.main-nav {
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding-right: 10px;
 }
 
 .container {
     margin: 50px auto;
-    padding: 10px;
+    display: block;
+    padding: 10px 15px;
     background: #f6e3db;
     border-radius: 10px;
     box-shadow: 0 1.5px 0 0.5px rgba(0, 0, 0, 0.1);

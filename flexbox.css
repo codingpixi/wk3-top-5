@@ -10,6 +10,11 @@
     
 }
 
+.main-nav {
+    display: flex;
+
+}
+
 .box {
     /*  box-sizing: border-box; */
       
@@ -18,4 +23,27 @@
           flex-grow: 1;
       
       */ 
+  }
+
+  @media (min-width: 360px) {
+    .main-header {
+        display: flex;
+        /* flex-direction: column; */
+    }
+  }
+
+  @media (min-width: 769px) {
+      .main-header,
+      .main-nav {
+          display: flex;
+          flex-direction: column;
+      }
+  }
+
+  @media (min-width: 1025px) {
+      .main-header {
+          flex-direction: row;
+          justify-content: space-between;
+      }
+
   }
