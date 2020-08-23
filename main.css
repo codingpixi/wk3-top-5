@@ -33,20 +33,34 @@ body {
 
 }
 
-.box {
+.img {
     padding: 10px;
     color: #fff;
     border-radius: 2px;
+    height: 500px;
 }
 
 .box-1 {
-    background: #e51400; 
-   /* flex-grow: 1; */
+    background-image: url("img/beach-mountain.jpg");
+    /* background: #e51400; 
+    flex-grow: 1; */
 }
-.box-2 {background: #fa6800;}
-.box-3 {background: #f0a30a; }
-.box-4 {background: #e3c800; }
-.box-5 {background: #a4c400;}
+.box-2 {
+    background-image: url("img/beach-path.jpg");
+    /* background: #fa6800; */
+}
+.box-3 {
+    background-image: url("img/beach-shore.jpg");
+    /* background: #f0a30a;  */
+}
+.box-4 {
+    background-image: url("img/beach-waves.jpg");
+    /* background: #e3c800;  */
+}
+.box-5 {
+    background-image: url("img/footsteps.jpg")
+    /* background: #a4c400; */
+}
 .box-6 {background: #60a917;}
 .box-7 {background: #00aba9;}
 .box-8 {background: #1ba1e2;} 
