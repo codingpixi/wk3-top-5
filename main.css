@@ -42,7 +42,7 @@ a:hover {
     border-radius: 10px;
 }
 
-.top-5-box {
+.top-5 {
     padding: 25px;
     margin-right: 10px;
     color: #fff;
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .gallery-container,
-.top-5-box {
+.top-5 {
     box-shadow: 0 1.5px 0 0.5px rgba(0, 0, 0, 0.1);
 }
 
@@ -81,3 +81,10 @@ a:hover {
 .box-7 {background: #00aba9;}
 .box-8 {background: #1ba1e2;} 
 .box-9 {background: #aa00ff;}
+
+/* ---------- ON HOVER ---------- */
+
+.box-1:hover {
+    color: #000;
+
+}
